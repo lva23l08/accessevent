@@ -22,5 +22,5 @@ jobs:
           test -f docs/api.md
           test -f docs/assessment.md
       - name: Run tests
-        run: pytest -v
+        run: python -m pytest -v
       - run: echo "PASS Day - 5 checks completed"
